@@ -53,7 +53,7 @@
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Ratings</label>
-                        <input type="integer" class="form-control" name="ratings" required>
+                        <input type="number" class="form-control" name="ratings" required>
                     </div>
                     <div class="mb-3">
                         <button class="btn btn-success">Save</button>

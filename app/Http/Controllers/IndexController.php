@@ -28,9 +28,9 @@ class IndexController extends Controller
             )->get();
         }
        
-         if($this->request->has('price')){
-             $data =Products::where('entrance_fee','>=' , $this->request->price1)
-                            ->where('entrance_fee','<=' , $this->request->price1)
+         if($this->request->has('price1')){
+             $data =Products::where('price','>=' , $this->request->price1)
+                            ->where('price','<=' , $this->request->price1)
                             ->get();
          }
     
